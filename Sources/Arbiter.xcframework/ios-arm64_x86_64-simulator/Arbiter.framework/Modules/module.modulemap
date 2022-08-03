@@ -1,0 +1,11 @@
+framework module Arbiter {
+  umbrella header "Arbiter.h"
+
+  export *
+  module * { export * }
+}
+
+module Arbiter.Swift {
+    header "Arbiter-Swift.h"
+    requires objc
+}
