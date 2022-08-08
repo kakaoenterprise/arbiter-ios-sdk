@@ -25,9 +25,12 @@ KEP SDK 기능을 사용하기 위해서는 반드시 SDK 연동 작업이 필�
 
 Xcode > File > Add Packages... 를 선택한 뒤 현재 github repository를 package에 추가합니다.
 
-#### Cocoapods 을 통해 의존성을 추가하는 방법 (지원 예정)
+#### Cocoapods 을 통해 의존성을 추가하는 방법
 
-🚧 현재 Cocoapods를 통한 의존성 추가를 지원하고있지 않습니다. 추후 지원 예정입니다.
+Podfile 에 아래 코드를 추가해주세요
+``` Ruby
+  pod 'arbiter-ios-sdk'
+```
 
 ### SDK 초기화
 
